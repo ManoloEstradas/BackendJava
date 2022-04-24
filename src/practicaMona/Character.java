@@ -23,15 +23,14 @@ public class Character extends Mona {
         this.props = props;
     }
 
-    public String getNamecha(String namecha){  return namecha;  }
-    public String getTops(String tops){  return tops;   }
-    public String getNamecha(){ return namecha; }
-    public String getBottoms(String bottoms){  return bottoms;  }
-    public String getFootware(String footwear){  return footwear;  }
-    public String getHat(String hat){  return hat;  }
-    public String getGlasses(String glasses){  return glasses;  }
-    public String getAccesories(String accesories){  return accesories;  }
-    public String getProps(String props){  return props;  }
+    public String getNamecha(){  return namecha;  }
+    public String getTops(){  return tops;   }
+    public String getBottoms(){  return bottoms;  }
+    public String getFootware(){  return footwear;  }
+    public String getHat(){  return hat;  }
+    public String getGlasses(){  return glasses;  }
+    public String getAccesories(){  return accesories;  }
+    public String getProps(){  return props;  }
 
     public boolean setNamecha(){
         if(!namecha.isEmpty()){
