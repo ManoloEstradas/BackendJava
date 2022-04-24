@@ -32,7 +32,7 @@ public class Character extends Mona {
     public String getAccesories(){  return accesories;  }
     public String getProps(){  return props;  }
 
-    public boolean setNamecha(){
+    public boolean setNamecha(String namecha){
         if(!namecha.isEmpty()){
             this.namecha = namecha;
             return true;
@@ -40,21 +40,21 @@ public class Character extends Mona {
             return false;
     }
 
-    public boolean setTops(){
+    public boolean setTops(String tops){
         if(!tops.isBlank()){
             this.tops = tops;
             return true;
         }else
             return false;
     }
-    public boolean setBottoms(){
+    public boolean setBottoms(String bottoms){
         if(!bottoms.isEmpty()){
             this.bottoms = bottoms;
             return true;
         }else
             return false;
     }
-    public boolean setFootware(){
+    public boolean setFootware(String footwear){
         if(!footwear.isEmpty()){
             this.footwear = footwear;
             return true;
@@ -62,28 +62,28 @@ public class Character extends Mona {
             return false;
     }
 
-    public boolean setHat(){
+    public boolean setHat(String hat){
         if(!hat.isEmpty()){
             this.hat = hat;
             return true;
         }else
             return false;
     }
-    public boolean setGlasses(){
+    public boolean setGlasses(String glasses){
         if(!glasses.isEmpty()){
             this.glasses = glasses;
             return true;
         }else
             return false;
     }
-    public boolean setAccesories(){
+    public boolean setAccesories(String accesories){
         if(!accesories.isEmpty()){
             this.accesories = accesories;
             return true;
         } else
             return false;
     }
-    public boolean setProps(){
+    public boolean setProps(String props){
         if(!props.isEmpty()){
             this.props = props;
             return true;
