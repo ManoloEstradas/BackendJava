@@ -43,7 +43,7 @@ public class Champion {
             return false;
     }
 
-    public boolean setDifficulty(String difficuty) {
+    public boolean setDifficulty(String difficulty) {
         if(!difficulty.isEmpty()){
             this.difficulty = difficulty;
             return true;
